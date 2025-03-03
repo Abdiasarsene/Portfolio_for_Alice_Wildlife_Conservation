@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'mixins';
+
+.container{
+    padding: 20px;
+    .logo{
+        font-size: 2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        .alice{
+            background-color: $secondary-color;
+            color: white;
+            padding: 5px;
+            border-radius: 10%;
+        }
+    }
+}
+
+.foot {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:$secondary-color ;
+    li{
+        margin: 0 10px;
+        a{
+            text-decoration: none;
+            color: inherit; 
+            font-size: 24px;
+        }
+    }
+}
+
+.d-grid{
+    .bt1{
+        @include butons-footer;
+    }
+}
+
+.bt2{
+    @include button;
+}
+
+@media (max-width:768px){
+    .container{
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

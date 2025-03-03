@@ -1,0 +1,66 @@
+@import 'variables';
+@import 'mixins';
+
+// First section
+main {
+    background-color: $primary-color;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    
+    .name{
+        @include responsive-col;
+    }
+    .text {
+        @include h1;
+    }
+    
+    .wil {
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .person {
+        @include p;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .container{
+        .d-grid {
+            margin-right: 20px;
+            .bs {
+                @include button;
+            }
+            
+            .bns {
+                @include buton;
+                margin-left:15px;
+            }
+            .btn:hover {
+                filter: brightness(1.2); 
+            }
+        }
+    }
+    .carousel-item{
+        img{
+            border-radius: 10%;
+        }
+    }
+
+    .carousel-caption{
+        h5{
+            @include h5;
+        }
+        p{
+            font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: white;
+        font-weight: bold;
+        }
+        img{
+            border-image: 30%;
+        }
+    }
+
+}

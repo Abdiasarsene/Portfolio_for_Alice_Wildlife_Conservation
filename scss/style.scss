@@ -1,0 +1,10 @@
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+@import 'variables';
+@import 'mixins';
+@import "header";
+@import 'footer';
+@import 'home';
+@import 'aboutme';
+@import 'blog';
+@import 'contact';
+@import 'projects'

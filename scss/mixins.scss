@@ -1,0 +1,99 @@
+@mixin button {
+    background-color: $secondary-color;
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    @media screen and (max-width:768px){
+        font-size:13px;
+    }
+}
+
+@mixin buton {
+    background-color: white;
+    font-size: 16px;
+    color:$secondary-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    @media screen and (max-width:992px){
+        font-size:12px;
+    }
+}
+
+@mixin butons-footer {
+    background-color: $primary-color;
+    font-size: 16px;
+    color:$secondary-color;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    @media screen and (max-width:992px){
+        font-size:13px;
+    }
+}
+
+@mixin h1{
+    font-size: $title-size;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+    @media (max-width:992px){
+        font-size:2em ;
+    }
+
+}
+
+@mixin h2{
+    font-size: 1,5em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+    @media screen and (max-width:992px){
+        font-size:2em;
+    }
+
+}
+
+@mixin h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    color: white;
+    font-weight: bold;
+
+    @media screen and (max-width: 992px){
+        font-size: 1,5em;
+    }
+}
+
+@mixin p{
+    font-size:$font-size;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+    line-height: 2;
+
+    @media screen and (max-width:992px){
+        font-size: 16px;
+    }
+}
+
+@mixin responsive-col {
+    @media screen and (max-width:992px){
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
