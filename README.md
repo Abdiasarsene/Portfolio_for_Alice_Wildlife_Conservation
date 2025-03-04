@@ -5,6 +5,8 @@ Welcome to the GitHub repository for Alice Greenfield's professional portfolio. 
 ## 🌿 About the Project
 This portfolio website highlights Alice Greenfield's work as a wildlife conservation expert. The site provides insights into her projects, research, and conservation efforts, offering a visually appealing and informative experience for visitors.
 
+![Alice Wildlife](./alice.png)
+
 ## ✨ Features
 - **Home Page**: Engaging introduction with a welcome message and key highlights.
 - **About Page**: Detailed biography, skills, and certifications.
@@ -20,6 +22,8 @@ This portfolio website highlights Alice Greenfield's work as a wildlife conserva
 - **Bootstrap**: To create a responsive and user-friendly design.
 - **JavaScript**: For interactivity and dynamic elements.
 - **HTML5 & CSS3**: The foundation of the website's structure and styling.
+
+  ![Alice Wildlife](./code_alice.png)
 
 ## 🚀 Installation
 To run this project locally, follow these steps:
